@@ -2,7 +2,7 @@ var $ = require('jquery');
 var Like = require('./models/like').Like;
 
 var likeButton = $('.like-button');
-var numValue = document.getElementById("num-value");
+var numValue = $('#num-value');
 
 var like = new Like();
 
